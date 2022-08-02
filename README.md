@@ -67,8 +67,5 @@ https://drive.google.com/file/d/1rjfmufM5lr2AMd1Xc8Oj2yXqoCGa0w7m/view
 <img width="413" alt="image" src="https://user-images.githubusercontent.com/99457944/182322090-e96eed66-d183-48b0-95ea-6a582a19ba12.png">
 
 ## MODEL 3
-<img width="301" alt="image" src="https://user-images.githubusercontent.com/99457944/182322167-9fc5d1ab-43e7-43fc-8808-e31dc51c968c.png">
-
-## MODEL 4
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/99457944/182322232-127bc6b1-2e33-4494-9af9-733391becea5.png">
 
