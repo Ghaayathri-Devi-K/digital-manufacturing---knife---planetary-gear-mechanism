@@ -1,0 +1,34 @@
+from PySide import QtCore
+
+middleteeth = 40
+leftteeth = 40
+rightteeth = 40
+downteeth = 40
+
+r = 1
+
+def update():
+	global middleteeth, leftteeth, rightteeth, downteeth, middleangle, leftangle, rightangle, downangle, r
+	#middlegear
+	App.getDocument("proj").Cut005.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),r), App.Vector(0,0,0))
+	#leftgear
+	App.getDocument("proj").Cut008.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),r), App.Vector(0,0,0))
+	#rightgear
+	App.getDocument("proj").Cut007.Placement=App.Placement(App.Vector(0,-0.1,0), App.Rotation(App.Vector(0,0,1),r), App.Vector(0,0,0))
+	#downgear
+	App.getDocument("proj").Cut006.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),r), App.Vector(0,0,0))
+	r += 1
+
+def reset():
+	#middlegear
+	App.getDocument("proj").Cut005.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+	#leftgear
+	App.getDocument("proj").Cut008.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+	#rightgear
+	App.getDocument("proj").Cut007.Placement=App.Placement(App.Vector(0,-0.1,0), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+	#downgear
+	App.getDocument("proj").Cut006.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+
+timer = QtCore.QTimer()
+timer.timeout.connect(reset)
+timer.start(1)
