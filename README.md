@@ -7,7 +7,7 @@ Designed a knife / Comb model with planetary gear mechanism in Free Cad Software
 <li>Sun gears drives the whole mechanism.</li>
 <li>Whole system revolves on its own axis and along the external gear ring.</li>
 <li>Movement of gears causes comb to move - Relieves stress </li>
-</ul>
+</ul> 
 
 ## Softwares used
 <ol>
