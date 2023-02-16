@@ -4,7 +4,7 @@ Designed a knife / Comb model with planetary gear mechanism in Free Cad Software
 ## What is planery gear mechanism ?
 ![image](https://user-images.githubusercontent.com/99457944/182314460-b79ea9e3-dd2b-402e-a074-93f787280b4a.png)
 <ul>
-<li>Sun gear drives the whole mechanism.</li>
+<li>Sun gears drives the whole mechanism.</li>
 <li>Whole system revolves on its own axis and along the external gear ring.</li>
 <li>Movement of gears causes comb to move - Relieves stress </li>
 </ul>
