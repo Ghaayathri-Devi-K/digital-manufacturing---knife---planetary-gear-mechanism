@@ -1,4 +1,4 @@
-# Digital Manufacturing of the Knife/Comb with planetary gear mechanism
+# Digital Manufacturing of the Knife/Comb with planetary gear mechanism - changed
 Designed a knife / Comb model with planetary gear mechanism in Free Cad Software and 3D Printed it by slicing it in Cura Software.
 
 ## What is planery gear mechanism ?
